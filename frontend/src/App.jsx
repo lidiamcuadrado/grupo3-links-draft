@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
+        <TROLL/>
         <Route path="/users/register" element={<RegisterPage />} />
         <Route path="/users/login" element={<LoginPage />} />
       </Routes>
